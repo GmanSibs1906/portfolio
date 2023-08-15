@@ -6,7 +6,7 @@ import Projects from "./Projects";
 
 function App() {
   return (
-    <div className="App overflow-x-hidden ">
+    <div className="App overflow-x-hidden mb-[-3000px] ">
       <div className=" min-h-[100vh]  ">
         <Navbar />
         <About />

@@ -16,20 +16,19 @@ function RightBar() {
   return (
     <div className="flex justify-end ">
       {/* DESKTOP */}
-      <div class=" hidden lg:flex flex-col h-[100%] w-[21%] pt-[45px] bg-white pl-[10px] mb-[10px] ">
+      <div class=" hidden lg:flex flex-col h-[100vh] w-[21%] pt-[45px] bg-white pl-[10px] mb-[10px] ">
         {/* following */}
         <div className=" flex pl-[10px] text-[20px] font-display">
           Following
         </div>
         <div className="flex flex-col p-[10px]">
           <div className="flex w-[100%] justify-between">
-            <img src={Mosh} alt="" className=" w-[44%] object-contain " />
-            <img src={Ninja} alt="" className=" w-[40%] object-contain " />
+            <img src={Mosh} alt="" className=" w-[24%] object-contain " />
+            <img src={Ninja} alt="" className=" w-[20%] object-contain " />
+            <img src={Bro} alt="" className=" w-[25%] object-contain " />
+            <img src={Sonny} alt="" className=" w-[25%] object-contain " />
           </div>
-          <div className="flex w-[100%] justify-between mt-[10px]">
-            <img src={Bro} alt="" className=" w-[45%] object-contain " />
-            <img src={Sonny} alt="" className=" w-[45%] object-contain " />
-          </div>
+          <div className="flex w-[100%] justify-between mt-[10px]"></div>
         </div>
         <hr className="mt-[15px]" />
 
@@ -73,10 +72,10 @@ function RightBar() {
         <hr className="mt-[15px]" />
 
         {/* references */}
-        <div className=" flex pl-[10px] text-[20px] font-display mt-[20px]">
+        <div className=" flex text-[20px] font-display mt-[1px] bg-white pt-[20px] pl-[10%] ml-[-4%] pb-[7%] ">
           References
         </div>
-        <div className="flex flex-col mt-[10px] ml-[10px]">
+        <div className="flex flex-col mt-[-3%] ml-[10px]">
           {/* larreth */}
           <DetailsContainer
             icon={Larreth}
@@ -90,9 +89,9 @@ function RightBar() {
       </div>
 
       {/* TABLET */}
-      <div class=" hidden md:flex lg:hidden flex-col h-[100%] w-[26%] pt-[45px] bg-white pl-[10px] mb-[10px] mt-[-2780px] ">
+      <div class=" hidden md:flex lg:hidden flex-col min-h-[100%] w-[26%] pt-[5px] md:bg-[#e8e8e8] pl-[10px] mb-[10px] mt-[-2730px] rounded-l-lg border border-slate-100 shadow-lg ">
         {/* following */}
-        <div className=" flex pl-[10px] text-[20px] font-display">
+        <div className="  flex pl-[10px] text-[20px] font-display">
           Following
         </div>
         <div className="flex flex-col p-[10px]">
@@ -171,13 +170,12 @@ function RightBar() {
         </div>
         <div className="flex flex-col p-[10px]">
           <div className="flex w-[100%] justify-between">
-            <img src={Mosh} alt="" className=" w-[44%] object-contain " />
-            <img src={Ninja} alt="" className=" w-[40%] object-contain " />
+            <img src={Mosh} alt="" className=" w-[24%] object-contain " />
+            <img src={Ninja} alt="" className=" w-[20%] object-contain " />
+            <img src={Bro} alt="" className=" w-[25%] object-contain " />
+            <img src={Sonny} alt="" className=" w-[25%] object-contain " />
           </div>
-          <div className="flex w-[100%] justify-between mt-[10px]">
-            <img src={Bro} alt="" className=" w-[45%] object-contain " />
-            <img src={Sonny} alt="" className=" w-[45%] object-contain " />
-          </div>
+          <div className="flex w-[100%] justify-between mt-[10px]"></div>
         </div>
         <hr className="mt-[15px]" />
 

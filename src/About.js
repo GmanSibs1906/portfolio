@@ -52,7 +52,7 @@ function About() {
             {/* row two with stats */}
             <div className="flex justify-between text-[17px] my-[4px]">
               <span className="flex">
-                <span className="count">1.1k</span>
+                <span className="count">1.1k+</span>
                 <span>coding days</span>
               </span>
               <span className="flex">
@@ -123,7 +123,7 @@ function About() {
             {/* row two with stats */}
             <div className="flex justify-between text-[17px] my-[4px]">
               <span className="flex">
-                <span className="count">1.1k</span>
+                <span className="count">1.1k+</span>
                 <span>coding days</span>
               </span>
               <span className="flex">
@@ -197,7 +197,7 @@ function About() {
             {/* row two with stats */}
             <div className="flex ml-[10px] text-[14px] my-[1px]">
               <span className="flex">
-                <span className="count">1.1k</span>
+                <span className="count">1.1k+</span>
                 <span>coding days</span>
               </span>
               <span className="flex ml-[10px]">
